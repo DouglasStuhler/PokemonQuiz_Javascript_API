@@ -1,0 +1,128 @@
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 50vw;
+    margin: 3vh 25vw 1.5vh;
+}
+
+header p, #resposta p{
+    padding: 0 3vw;
+    font-size: .7em;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.pokemon, .form{
+    width: 80vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pokemon .pokeimagem, .pokemon{
+    height: 150px;
+}
+
+#input{
+    display: inline-block;
+    width: 80vw;
+    box-sizing: border-box;
+    font-size: .9em;
+    padding: 1.5vh 2vw;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: lowercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.btn{
+    padding: 2vh 14vw;
+    margin: 15px auto 0;
+    font-size: .8em;
+    background-color: #32cd32;
+    outline: none;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: 1.5px;
+}
+
+#resposta a{
+    display: inline-block;
+    width: 80vw;
+    padding: 2vh 8vw;
+    margin: 15px auto 0;
+    font-size: .8em;
+    outline: none;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    margin: 0 10vw;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+#resposta{
+    margin-top: 40px;
+    min-height: 200px;
+}
+
+#resposta .sucesso{
+    background-color: #32cd32;
+}
+
+#resposta .falha{
+    background-color: rgb(190, 9, 9);
+}
+
+footer{
+    width: 100vw;
+    background-color: rgb(27, 25, 25);
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 1vh 2vw;
+    font-size: .9em;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 1000px){
+
+    header img{
+        width: 40vw;
+        margin: 3vh 30vw 3vh;
+    }
+
+    header p, #resposta p{
+        font-size: 1.2em;
+    }
+
+    #input{
+        width: 60vw;
+    }
+
+    footer{
+        padding: 3vh 2vw;
+    }
+}

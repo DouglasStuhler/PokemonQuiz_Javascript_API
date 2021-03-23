@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokemon Quiz</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.png" alt="Título PokeQuiz">
+            <p>Que você é amante de Pokemon eu já sei. Afinal, se não fosse por isso, esse site não teria chegado a você... Mas você é fã o suficiente para adivinhar os nome de alguns Pokemon's?</p>
+            <p><b>OBS: Além de saber os nomes, têm que responder em inglês para que a resposta esteja correta!</b></p>
+        </header>
+        <div class="pokemon">
+        </div>
+        <form class="form" onsubmit="return verifica()">
+            <input id="input" type="text" placeholder="Nome Pokemon:">
+            <input class="btn" type="submit" value="Enviar">
+        </form>
+        <div id="resposta"></div>
+        <footer>
+            <p>Desenvolvido por Douglas Stuhler Pinheiro</p>
+        </footer>
+    </body>
+    <script type="text/javascript" src="js/index.js"></script>
+</html>
