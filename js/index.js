@@ -50,6 +50,7 @@ function verifica(){
     var box = document.getElementById("resposta");
 
     x = x.value.trim();
+    x = x.toLowerCase();
 
     if (x == y){
         box.innerHTML = "<p>Parabéns! Você acertou o nome do Pokemon!</p><a class='sucesso' href='index.html'>Aperte aqui para acertar mais uma!</a>"
